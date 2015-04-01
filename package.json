@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/BenjaminN/messiah.git"
   },
+  "scripts": {
+    "test": "mocha"
+  },
   "author": "Benjamin Netter <benjamin.netter@gmail.com> (http://twitter.com/benjaminnetter)",
   "bugs": {
     "url": "https://github.com/BenjaminN/messiah/issues"
@@ -16,5 +19,8 @@
     "async": "^0.9.0",
     "lodash": "^3.6.0",
     "validator": "^3.36.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1"
   }
 }
