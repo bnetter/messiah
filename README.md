@@ -12,6 +12,9 @@ npm install messiah
 
 ### Default rules
 
+#### `isRequired`
+Checks if the value exists.
+
 #### `isString`
 Checks if the value is a string.
 
