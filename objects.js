@@ -24,7 +24,7 @@ objects.new = function(name, rules) {
   this.data[name] = object;
 };
 
-objects.loadFromFolder = function (path) {
+objects.load = function (path) {
   var files = fs.readdirSync(path);
 
   _.forEach(files, function (file) {

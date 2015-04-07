@@ -9,7 +9,7 @@ rules.new = function(name, rule) {
   this.data[name] = rule;
 };
 
-rules.loadFromFolder = function (path) {
+rules.load = function (path) {
   var files = fs.readdirSync(path);
 
   _.forEach(files, function (file) {
@@ -29,6 +29,6 @@ rules._get = function(name) {
   return rule;
 };
 
-rules.loadFromFolder(__dirname + '/rules');
+rules.load(__dirname + '/rules');
 
 module.exports = rules;
